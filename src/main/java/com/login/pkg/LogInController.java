@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class LogInController {
-
+    // git token : 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
     //@RequestMapping(value = "/login", method = RequestMethod.GET)
 	@GetMapping("/login")
 	public String login() {
